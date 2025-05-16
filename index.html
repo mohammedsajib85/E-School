@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-School</title>
+  <!-- css links -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <!-- header start -->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg cnav">
+              <div class="container-fluid px-0">
+                <!-- logo start -->
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logo.png" class="logo img-fluid" alt="E-School">
+                </a>
+                <!-- logo end -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#cnavbar" aria-controls="cnavbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="cnavbar">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Books</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Others</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                  </ul>
+                  <!-- signin button start-->
+                  <!-- Button trigger modal -->
+                   <button type="button" class="btn c_btn s_btn" data-bs-toggle="modal" data-bs-target="#emodal1">
+                     Sign in
+                   </button>
+
+                   <!-- Modal -->
+                   <div class="modal fade" id="emodal1" tabindex="-1" aria-labelledby="emodal1Label" aria-hidden="true">
+                     <div class="modal-dialog">
+                       <div class="modal-content">
+                         <div class="modal-header">
+                           <h1 class="modal-title fs-5" id="emodal1Label">Enter your data</h1>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                          <form>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                         </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                           <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                        </form>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                        </div>
+                         </div>
+                     </div>
+                   </div>
+                  <!-- signin button end-->
+
+                </div>
+              </div>
+            </nav>            
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- banner start -->
+  <section class="banner">
+    <div class="container">
+      <div class="row align-item-center">
+        <!-- banner text -->
+        <div class="col-xl-5 col-lg-6 order-lg-1 order-2">
+          <div class="b_text">
+            <p class="p1 mb-0">Are you ready to Learn?</p>
+            <h1 class="h1">Learn With fun 
+             on <span>any schedule</span></h1>
+             <p class="p2 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+             <a class="btn c_btn b_link" href="#">Get Started</a>
+          </div>
+        </div>
+        <!-- banner image -->
+        <div class="offset-lg-1 col-xl-6 col-lg-6 order-lg-2 order-1">
+          <div class="b_img">
+            <img src="images/banner.png" class="img-fluid" alt="E-School">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner end -->
+
+
+  <!-- js link -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
